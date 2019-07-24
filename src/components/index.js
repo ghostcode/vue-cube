@@ -1,8 +1,8 @@
 import Vue from 'vue'
-import Welcome from './Welcome.vue'
+import Tab from './Tab.vue'
 
 const Components = {
-  Welcome
+  Tab
 }
 
 Object.keys(Components).forEach(name=>{

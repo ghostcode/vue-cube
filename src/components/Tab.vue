@@ -1,11 +1,11 @@
 <template>
     <div>
-      Welcome
+      Tab 组件测试
     </div>
 </template>
 <script>
 export default {
-    name: 'Welcome',
+    name: 'Tab',
     data() {
         return {
 
