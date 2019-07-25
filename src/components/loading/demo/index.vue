@@ -1,11 +1,15 @@
 <template>
     <div>
-      Tab 组件测试
+      <Loading></Loading>
     </div>
 </template>
 <script>
+import Loading from '../loading'
 export default {
-    name: 'Tab',
+    name: 'LoadingDemo',
+    components:{
+      Loading
+    },
     data() {
         return {
 

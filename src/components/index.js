@@ -1,8 +1,10 @@
 import Vue from 'vue'
-import Tab from './Tab.vue'
+import Button from './button/index'
+import Loading from './loading/index'
 
 const Components = {
-  Tab
+  Button,
+  Loading
 }
 
 Object.keys(Components).forEach(name=>{
